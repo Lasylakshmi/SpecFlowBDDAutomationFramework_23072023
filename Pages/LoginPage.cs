@@ -105,7 +105,7 @@ namespace SpecFlowBDDAutomationFramework.Pages
             Thread.Sleep(2000);
             IWebElement button = driver.FindElement(By.CssSelector("button.dropbtn"));
 
-            // Create an instance of the Actions class
+            // Create an instance to the Actions class
             Actions actions = new Actions(driver);
 
             // Perform the mouse hover action
